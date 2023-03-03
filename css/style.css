@@ -28,7 +28,7 @@
 
 }
 
-img {
+.img-1 {
     margin-top: 150px;
     border-radius: 2%;
 }
@@ -173,10 +173,38 @@ img {
 .feature-img {
     margin-left: -160px;
 }
-
+.subtitle-5{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
 .text-p {
     font-family: sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #666666;
+}
+.container5{
+    margin-top: 250px;
+}
+.title-5{
+    text-align: center;
+    color: #6C63FF;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.row-5{
+    margin-top: 150px;
+}
+.cards-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #222222;
+    text-align: center;
+}
+.cards{
+    justify-content: center;
 }
