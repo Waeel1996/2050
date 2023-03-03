@@ -173,38 +173,62 @@
 .feature-img {
     margin-left: -160px;
 }
-.subtitle-5{
+
+.subtitle-5 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 700;
 }
+
 .text-p {
     font-family: sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #666666;
 }
-.container5{
+
+.container5 {
     margin-top: 250px;
+    padding-bottom: 50px;
 }
-.title-5{
+
+.title-5 {
     text-align: center;
     color: #6C63FF;
     font-family: sans-serif;
     font-size: 24px;
     font-weight: 700;
 }
-.row-5{
+
+.row-5 {
     margin-top: 150px;
 }
-.cards-title{
+
+.cards-title {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 700;
     color: #222222;
     text-align: center;
 }
-.cards{
-    justify-content: center;
+
+.cards {
+
+    border-bottom: 3px #6C63FF solid;
+}
+
+.cards-p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.card-Details {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #222222;
+    text-decoration: none;
 }
