@@ -257,10 +257,29 @@
     font-size: 18px;
     font-weight: 400;
     color: #666666;
+    line-height: 28px;
 }
-.svgs2-6{
-    padding: 20px 20px;
+.icon-6 {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: #6C63FF;
-    margin-top: 20px;
+    line-height:60px;
+    text-align: center;
+    margin-right: -10px;
+}
+.icon-6 i{
+    color: white;
+    font-size: 20px;
+}
+.title-6{
+    font-family:'Poppins',sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: black;
+}
+.img-feature2{
+    margin-left: 120px;
+    margin-top: -68px;
 }
