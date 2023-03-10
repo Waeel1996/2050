@@ -11,6 +11,8 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="">
@@ -49,18 +51,22 @@
     <!--start home section-->
     <div class="home-head">
         <div class="container">
-            <div class="row">
+            <div class="row ">
+                <div class="col-lg-1"></div>
                 <div class="col-lg-5">
-                    <h1 class="Enhance text-light">Enhance Your Digital Experience</h1>
-                    <p class="text-light p1 mt-5">Ki hobe dolor sit amet conse cot etur adipi sicing elit sed do eius
+                    <h1 class="Enhance text-light wow slideInLeft" data-wow-delay="s" data-wow-duration="1s">
+                        Enhance<br>Your Digital Experience</h1>
+                    <p class="text-light p1 mt-5 wow slideInLeft" data-wow-delay="s" data-wow-duration="1.5s">Ki hobe
+                        dolor sit amet conse cot etur<br>adipi sicing elit sed do eius
                     </p>
-                    <div class="button-1">
+                    <div class="button-1 wow slideInLeft" data-wow-delay="s" data-wow-duration="2s">
                         <a href="" class="read-more">Read More</a>
                     </div>
                 </div>
-                <div class="col-lg-2"></div>
+                <div class="col-lg-1"></div>
                 <div class="col-lg-5">
-                    <img src="css/imgs/slider4-img.jpg" class="img-1" alt="">
+                    <img src="css/imgs/slider4-img.jpg" class="img-1 wow slideInRight" data-wow-delay=""
+                        data-wow-duration="1s" alt="">
                 </div>
             </div>
         </div>
@@ -73,10 +79,10 @@
         <div class="row">
             <div class="col-lg-5">
                 <div>
-                    <img src="css/imgs/about-img.png" class="about-img" alt="">
+                    <img src="css/imgs/about-img.png" class="about-img" data-aos="fade-right" alt="">
                 </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7" data-aos="fade-left">
                 <p class="about-us">About Us</p>
                 <h1 class="title">We Innovate Digital Goods</h1>
                 <div class="row mt-5">
@@ -165,7 +171,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="img-bg">
-                    <img src="css/imgs/service-img.png" class="img-3" alt="">
+                    <img src="css/imgs/service-img.png" class="img-3" data-aos="zoom-in" alt="">
                 </div>
             </div>
         </div>
@@ -178,7 +184,8 @@
         <div class="container ">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="css/imgs/feature-img.png" class="feature-img" alt="">
+                    <img src="css/imgs/feature-img.png" class="feature-img" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine alt=">
                 </div>
                 <div class="col-lg-6 sec-3">
                     <h5 class="choose">Why Choose Us</h5>
@@ -239,7 +246,7 @@
         <p class="title-5">Our Product</p>
         <h1 class="subtitle-5">We Develope Amazing<br>Products</h1>
         <div class="row row-5">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
                 <div class="cards shadow p-5 text-center">
                     <h3 class="cards-title mt-3 mb-5">Custom CMS</h3 class="cards-title">
 
@@ -250,7 +257,7 @@
                     <a href="" class="card-Details">View Details</a>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
                 <div class="cards shadow p-5 text-center">
                     <h3 class="cards-title mt-3 mb-5">Blogging Tool</h3 class="cards-title">
 
@@ -261,7 +268,7 @@
                     <a href="" class="card-Details">View Details</a>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
                 <div class="cards shadow p-5 text-center">
                     <h3 class="cards-title mt-3 mb-5">Photo Editor</h3 class="cards-title">
 
@@ -274,7 +281,7 @@
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
                 <div class="cards shadow p-5 text-center">
                     <h3 class="cards-title mt-3 mb-5">Accounting App</h3 class="cards-title">
 
@@ -285,7 +292,7 @@
                     <a href="" class="card-Details">View Details</a>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
                 <div class="cards shadow p-5 text-center">
                     <h3 class="cards-title mt-3 mb-5">Keyword Tool</h3 class="cards-title">
 
@@ -296,7 +303,7 @@
                     <a href="" class="card-Details">View Details</a>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left">
                 <div class="cards shadow p-5 text-center">
                     <h3 class="cards-title mt-3 mb-5">Social Media Tool</h3 class="cards-title">
 
@@ -404,8 +411,8 @@
             aliquip ex ea</p>
         <div class="row mt-5">
             <div class="col-lg-4">
-                <div class="shadow bg-white post overflow-hidden">
-                    <div>
+                <div class="shadow bg-white post">
+                    <div class="overflow-hidden">
                         <img class="w-100 post-img" src="css/imgs/blog-img1.jpg" alt="">
                     </div>
                     <div class="pt-4 pb-4 px-4">
@@ -416,8 +423,8 @@
             </div>
 
             <div class="col-lg-4">
-                <div class="shadow bg-white post overflow-hidden">
-                    <div>
+                <div class="shadow bg-white post">
+                    <div class="overflow-hidden">
                         <img class="w-100 post-img" src="css/imgs/blog-img2.jpg" alt="">
                     </div>
                     <div class="pt-4 pb-4 px-4">
@@ -427,8 +434,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="shadow bg-white post overflow-hidden">
-                    <div>
+                <div class="shadow bg-white post">
+                    <div class="overflow-hidden">
                         <img class="w-100 post-img" src="css/imgs/blog-img3.jpg" alt="">
                     </div>
                     <div class="pt-4 pb-4 px-4">
@@ -443,6 +450,14 @@
     <!--end 8th section-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 

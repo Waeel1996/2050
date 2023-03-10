@@ -24,7 +24,7 @@
 
 .home-head {
     background-color: #4741AF;
-    padding: 240px 0px;
+    padding: 200px 0px;
 
 }
 
@@ -34,16 +34,18 @@
 }
 
 .Enhance {
-    margin-top: 150px;
+    margin-top: 120px;
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
     font-weight: 700;
 }
 
 .p1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
     font-size: 24px;
     font-weight: 400;
+    line-height: 33.6px;
+    vertical-align: baseline;
 }
 
 .read-more {
@@ -375,15 +377,19 @@
 .post-img {
     transition: all .2s;
 }
-.cards:hover{
+
+.cards:hover {
     margin-top: -20px;
 }
-.cards{
+
+.cards {
     transition: all 0.5s;
 }
-.svg-anim:hover .svgs2{
+
+.svg-anim:hover .svgs2 {
     margin-left: 50px;
 }
-.svgs2{
+
+.svgs2 {
     transition: all .3s;
 }
