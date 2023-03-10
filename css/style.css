@@ -381,3 +381,9 @@
 .cards{
     transition: all 0.5s;
 }
+.svg-anim:hover .svgs2{
+    margin-left: 50px;
+}
+.svgs2{
+    transition: all .3s;
+}
